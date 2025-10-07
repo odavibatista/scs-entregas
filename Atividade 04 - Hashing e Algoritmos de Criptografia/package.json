@@ -1,0 +1,40 @@
+{
+  "name": "criptografia-e-hash",
+  "version": "0.0.1",
+  "description": "Pequeno conjunto de algoritmos para testar criptografias simétricas, assimétricas e hashing.",
+  "author": "odavibatista",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+    "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dot-env": "^0.0.1",
+    "dotenv": "^17.2.1",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.2"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.1",
+    "@eslint/js": "^9.32.0",
+    "@faker-js/faker": "^9.9.0",
+    "@types/bcryptjs": "^3.0.0",
+    "@types/node": "^24.1.0",
+    "eslint": "^9.32.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.3",
+    "globals": "^16.3.0",
+    "prettier": "^3.6.2",
+    "source-map-support": "^0.5.21",
+    "ts-loader": "^9.5.2",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.38.0"
+  }
+}
